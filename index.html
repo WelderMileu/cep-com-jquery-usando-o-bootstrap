@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html leng='pt-br'>
+	<head>
+		<meta charset="utf-8">
+		<title>Via Cep</title>
+		<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container pr-5 ml-5 float-right m-auto">
+			<form class="form mt-5 pt-5 col-lg-5 m-auto" id="formulario">
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-table"></i>
+						</span>
+					</div>
+					<input type="text" name="cep" class="form-control" id="cep" placeholder="00000-000" required="required">
+				</div>
+				<div class="float-right mt-2">
+					<button class="btn btn-primary" type="submit">Consultar</button>
+				</div>
+			</form>
+			<div class="container pt-5">
+				<div class="input-group mt-1">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-inr"></i>
+						</span>
+						<input type="text" id="cep2" name="cep2" placeholder="Cep" class="form-control" disabled="">
+					</div>
+				</div>
+				<div class="input-group mt-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-rebel"></i>
+						</span>
+						<input type="text" name="bairro" id="bairro" placeholder="Bairro" class="form-control" disabled="">
+					</div>
+				</div>
+				<div class="input-group mt-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-columns"></i>
+						</span>
+						<input type="text" name="complemento" id="complemento" placeholder="Complemento" class="form-control" disabled=""> 
+					</div>
+				</div>
+				<div class="input-group mt-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-filter"></i>
+						</span>
+						<input type="text" name="ibge" id="ibge" placeholder="Ibge" class="form-control" disabled="">
+					</div>
+				</div>
+				<div class="input-group mt-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-thumb-tack"></i>
+						</span>
+						<input type="text" name="localidade" id="localidade" placeholder="Localidade" class="form-control" disabled="">
+					</div>
+				</div>
+				<div class="input-group mt-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-map-marker"></i>
+						</span>
+						<input type="text" name="logradouro" id="logradouro" placeholder="Logradouro" class="form-control" disabled="">
+					</div>
+				</div>
+				<div class="input-group mt-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text">
+							<i class="fa fa-newspaper-o"></i>
+						</span>
+						<input type="text" name="uf" id="uf" placeholder="Uf" class="form-control" disabled="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="node_modules/jquery.maskedinput/src/jquery.maskedinput.js"></script>
+</html>
